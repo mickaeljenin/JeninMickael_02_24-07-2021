@@ -4,58 +4,74 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css"/> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/png" href="./images/logo/Reservia@3x.png"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/bd4bbfc9b9.js" crossorigin="anonymous"></script>
         <title>Reservia</title>  
     </head>
 
+
+
     <body>
-        <!---HEADER/NAV-->                                  
+                            <!-----------HEADER/NAV-------->                                  
         <header>
-            <img src="./images/logo/Reservia.svg" alt="reservia" title="logo reservia"/>
-            <nav>
+            <img class="logo" src="./images/logo/Reservia.svg" alt="reservia" title="logo reservia"/>
+            <nav class="nav_head">
                 <ul>
-                    <li>Hébergement</li>
-                    <li>Activités</li>
-                    <li>S'inscrire</li>
+                    <li><a class="nav" href="heberge">Hébergement</a></li>
+                    <li><a class="nav" href="activi">Activités</a></li>
+                    <li><a class="singup" href="sing">S'inscrire</a></li>
                 </ul>
             </nav>
         </header>
-        <!---INPUT--->
+
+
+                           <!-----------MAIN------------>
         <section class="main">
-            <h1>Trouver votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
-            <div class="search">
-                <i class="fas fa-map-marker-alt"></i>
-                <input type="text">
-                <span>Rechercher</span>
+            <div class="trouver">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
             </div>
-            <!---FILTRES-->
+            
+            <div class="rech">
+                <div class="search">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" placeholder="Marseille, France">
+                    <span>Rechercher</span>
+                </div>
+            </div>
+                            <!----------FILTRES--------->
             <div class="filtre">
                 <h2>Filtres</h2>
                 <div class="eco">
-                    <i class="fas fa-money-bill-wave">Economique</i>
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>Economique</span>
                 </div>
                 <div class="fami">
-                    <i class="fas fa-child">Familial</i>
+                    <i class="fas fa-child"></i>
+                    <span>Familial</span>
                 </div>
 
                 <div class="romantique">
-                    <i class="fas fa-heart">Romantique</i>
+                    <i class="fas fa-heart"></i>
+                    <span>Romantique</span>
                 </div>
                     
                 <div class="animaux">
-                    <i class="fas fa-dog">Animaux</i>
+                    <i class="fas fa-dog"></i>
+                    <span>Animaux autorisés</span>
                 </div>
                 
             </div>
             <!---INFOS LOGEMENTS DISPONNIBLES-->
-            <div>
+            <div class="infos">
                 <i class="fas fa-info"></i>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
-
-
+            
             <!--HEBERGEMENT MARSEILLE/LES PLUS POPULAIRES-->
             <div class="container">
                 <div class="location">
@@ -177,7 +193,7 @@
                         </div>
                     </div>
                 </div>
-                </div>
+                
 
                     <div class="activites">
                         <div class="port">

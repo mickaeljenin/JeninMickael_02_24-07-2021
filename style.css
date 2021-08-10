@@ -1,5 +1,157 @@
-.card_marseille > img{
-    width: 20%;
-    height: 20%;
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
+
+
+html{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    margin: auto;
+}
+
+
+/********PARTI HEADER********/
+
+element.style {
+    width: 902px;
+    padding-bottom: 30px;
+}
+
+header{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+a.nav {
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    
+}
+
+a.nav:hover {
+    color: blue;
+    border-top: rgb(72, 104, 245) solid 2px;
+    padding-top: 30px;
+}
+
+.nav_head{
+    border: 1px solid blue;
+
+}
+.nav_head ul{
+    border: 1px solid green;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+a.singup{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a.singup:hover{
+    border-top: rgb(72, 104, 245) solid 2px;
+    padding-top: 30px;
+}
+
+ul{
+    list-style-type: none;
+    border: 8px 5px;
+}
+
+li{
+    padding: 8px 20px;
+}
+
+
+/*-------SECTION----MAIN--------*/
+
+/*--REDIMENSION DES TAILLES IMAGES--*/
+.main img{
+    width: 150px;
+    height: 150px;
+}
+
+/*------TROUVER UN HEBERGEMENT------*/
+.trouver{
+    border: lawngreen 1px solid;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+}
+
+
+
+/*-------IMPUTE RECHERCHE ( marseille ) ----*/
+.rech{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.search{
+    border: rgb(211, 26, 211) 1px solid;
+    height: 100%;
+}
+
+
+/*------------FILTRES------------*/
+.filtre{
+    border: turquoise 1px solid;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.filtre > div {
+    
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 25px;
+    margin: 0px 10px;
+    margin-left: 23px;
+}
+
+.filtre  span{
+    padding: 22px;
+    font-weight: 900;
+}
+
+.filtre i{
+    color: blue;
+    background-color: rgb(205, 220, 243);
+    border-radius: 20px;
+    padding: 12px 13px;
+    margin-left: -2.6px;
+}
+
+.fami i{
+padding-right: 17px;
+}
+
+
+/*------------INFOS--------*/
+.infos{
+    border: steelblue 1px solid;
+    height: 75px;
+    display: flex;
+}
+
 
